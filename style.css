@@ -1,0 +1,35 @@
+/* universal selector */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  color: black;
+}
+section {
+  text-decoration: none;
+  color: inherit;
+  margin: 10px;
+}
+
+/* class selector
+ */
+.link {
+  font-size: 25px;
+}
+
+/* 16px === 1rem */
+/* 32px === 2rem */
+/* 64px === 4rem */
+
+
+/* id selector */
+#para-one{
+  color: orange
+
+}
+#para-two{
+  color: dodgerblue
+}
